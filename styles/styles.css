@@ -300,5 +300,219 @@ border-radius: 35px;
     color: #00FF88;
     border: 0;
 }
+.host-section{
+    max-width: 1200px;
+    margin: 0 auto 120px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #230E3D;
+    text-align: left;
+}
 
+.host-section>.host-img{
+    margin-right: 40px;
+}
+.host-section>.host-details>h3{
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 18px;
+}
+.host-section>.host-details>p{
+    margin-bottom: 18px;
+}
+.host-section>.host-details>img{
+    margin-right: 8px;
+    border: 1px solid rgba(83, 60, 114, 1);
+    border-radius: 45px;
+    padding: 8.5px 9.5px;
+}
+
+/* footer styles */
+
+
+
+.simple-footer{
+    background-image: url("../assets/footer-bg.png");
+    padding: 160px 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+.footer-socials{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 40px;
+}
+.social-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-container>h1{
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 32px;
+
+}
+
+
+
+
+
+
+/* media styles */
+@media  screen and (max-width:576px) {
+ /* header styles */
+ .menu-bar, .button-set {
+        display: none;
+    }
+    .head-section{
+        justify-content: space-between;
+        padding: 15px 20px;
+    }
+   
+    .head-section > .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger img {
+        width: 20px; 
+        height: auto;
+    }
+
+
+/* hero section */
+   .hero-section{
+    min-height: 600px;
+    background-position: center;
+ 
+    padding: 40px 10px;
+   }
+    .hero-content h1 {
+        font-size: 40px; 
+    }
+
+    .hero-visual {
+        width: 180px; 
+        height: 180px;
+    }
+
+    .mic-icon {
+        width: 50px;
+    }
+
+    .hero-btns {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .btn-spotify, .btn-subscribe {
+        width: 100%; 
+        max-width: 250px;
+        justify-content: center;
+    }
+/* main section */
+
+
+.main-section{
+    margin-top: 60px;
+    padding: 40px 20px;
+    justify-content: center;
+    text-align: center;
+}
+.main-section h2{
+    font-size: 28px;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+.main-section p{
+    font-size: 15px;
+    line-height: 1.5;
+}
+.main-section>p>br{
+    display: none;
+}
+
+/* card selction */
+.card-section{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.card h1{
+    font-size: 32px;
+}
+.card p{
+    font-size: 14px;
+}
+/* contents */
+.contents>h2{
+    font-size: 32px;
+    padding: 0 10px;
+}
+.deep-card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+.deep-card p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* features card realted content */
+
+
+
+.features-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.features h2{
+    font-size: 32px;
+}
+.features-card{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 15px;
+}
+
+
+
+/* host secttion */
+.host-section{
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+        margin: 0 15px 60px;
+}
+
+
+
+
+
+/* footer styles */
+.simple-footer{
+padding: 60px 20px;
+}
+.footer-container>h1{
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.footer-socials{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+}
 
