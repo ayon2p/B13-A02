@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shared styles */
+body{
+   background-color: #1A0B2E;
+    max-width: 1600px;
+    color: white;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+
+
+
+
+/* header styles */
+.head-section{
+    background-color: #1A0B2E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   border-bottom: 1px solid rgba(65, 37, 103, 1);
+   padding: 10px 0;
+}
+h1> .gradient-color{
+    font-size: 35px;
+    max-width: 219px;
+    height: 32px;
+    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul{
+list-style: none;
+display: flex;
+gap: 34px;
+}
+li>a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+ border: 0;
+ padding: 8px 20px;
+ background: linear-gradient(56deg, #F7E93F, #FB09B4, #9100F8);
+ color: white;
+ border-radius: 40px;
+ gap: 4px;
+ font-size: 16px;
+ font-weight: 600;
+}
+      
+ .head-section>.hamburger{
+    display: none;
+}
+.hamburger img{
+    width: 30px;
+    cursor: pointer;
+}
